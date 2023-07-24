@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <script
+      src="https://kit.fontawesome.com/08945172e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="w3-container">
+      <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+        <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+        <div class="w3-modal-content w3-animate-zoom">
+          <img src="img/aim.png" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <section id="header">
+      <a href="#"><img src="" alt="" class="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a class="active" href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="raw.html">Raw Products</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <div class="searchBox">
+              <input type="text" class="search-text" placeholder="search products">
+            <a href="#" class="searchBtn"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-heart btnWishlist-popup"></i>
+          </li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <li>
+            <i class="fa-solid fa-user btnLogin-popup"></i>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="hero">
+      <img src="img/aim.png" style="width:30%;cursor:zoom-in"
+      onclick="document.getElementById('modal01').style.display='block'" />
+      <div class="transparent">
+        <h4>Trade-in-offer</h4>
+        <h2>Super value deals</h2>
+        <h1>On all products</h1>
+        <p>Save more with coupons & up to 70% off!</p>
+        <button class="but1"><a href="shop.html">Shop Now</a></button>
+        <button class="but2"><a href="raw.html">Buy Raw Materials</a></button>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrapper">
+        <span class="icon-close">
+          <i class="bx bx-x"></i>
+        </span>
+        <div class="logreg-box">
+          <!-- login form -->
+          <div class="form-box login">
+            <div class="logreg-title">
+              <h2>Login</h2>
+              <p>Please login to use the platform</p>
+            </div>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-envelope"></i></span>
+                <input type="email" required />
+                <label>Email</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                <input type="password" required />
+                <label>Password</label>
+              </div>
+
+              <div class="remember-forgot">
+                <label><input type="checkbox" />Remember me</label>
+                <a href="#">Forgot Password?</a>
+              </div>
+
+              <button type="submit" class="btn">Login</button>
+
+              <div class="logreg-link">
+                <p>
+                  Don't Have an account?
+                  <a href="#" class="register-link">Register</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <!-- registratiin form -->
+          <div class="form-box register">
+            <div class="logreg-title">
+              <h2>Registration</h2>
+              <p>Please provide the following to verify your identity</p>
+            </div>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-user"></i></span>
+                <input type="text" required />
+                <label>Full Name</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-envelope"></i></span>
+                <input type="email" required />
+                <label>Email</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                <input type="password" required />
+                <label>Password</label>
+              </div>
+
+              <div class="remember-forgot">
+                <label
+                  ><input type="checkbox" />I agree to the terms &
+                  conditions</label
+                >
+              </div>
+
+              <button type="submit" class="btn">Login</button>
+
+              <div class="logreg-link">
+                <p>
+                  Already have an account?
+                  <a href="#" class="login-link">Login</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="media-options">
+          <a href="#">
+            <i class="bx bxl-google"></i>
+            <span>Login With Google</span>
+          </a>
+          <a href="#">
+            <i class="bx bxl-facebook-circle"></i>
+            <span>Login With Facebook</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="wishlist">
+      <div id="wrap" class="pro">
+        <h2>Wishlist</h2>
+        <span class="ico-close">
+          <i class="bx bx-x"></i>
+        </span>
+      </div>
+    </section>
+    <section id="feature" class="section-p1">
+      <div class="fe-box">
+        <h6>Free Shipping</h6>
+      </div>
+      <div class="fe-box">
+        <h6>Online Order</h6>
+      </div>
+      <div class="fe-box">
+        <h6>Save Money</h6>
+      </div>
+      <div class="fe-box">
+        <h6>Promotions</h6>
+      </div>
+      <div class="fe-box">
+        <h6>Happy Sell</h6>
+      </div>
+      <div class="fe-box">
+        <h6>F24/7 Support</h6>
+      </div>
+    </section>
+    <section id="banner2" class="section-m1">
+      <h4>Industrialists Section</h4>
+      <h5>Sell your Ready made products</h5>
+      <br />
+      <button class="normal">Register Now</button>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>New Arrivels</h2>
+      <p>Exclusive to this Season</p>
+      <div class="pro-container">
+        <div class="p">
+          <div class="pro" id="p1">
+          <img src="img/sherwani/sherwani.jpg" alt="" />
+          <div class="des">
+            <h5>Sherwani</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="1"></i>
+          <button class="normal butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <div class="p">
+        <div class="pro" id="p2">
+          <img src="img/sherwani/sherwani1.avif" alt="" />
+          <div class="des">
+            <h5>Sherwani</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="2"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p3">
+          <img src="img/sherwani/sherwani2.avif" alt="" />
+          <div class="des">
+            <h5>Sherwani</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="3"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p4">
+          <img src="img/kurta/kurta7.avif" alt="" />
+          <div class="des">
+            <h5>Kurta</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="4"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p5">
+          <img src="img/shoes/shoes5.webp" alt="" />
+          <div class="des">
+            <h5>Shoes</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="5"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p6">
+          <img src="img/shirt/shirt3.jpg" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="6"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p7">
+          <img src="img/shirt/shirt13" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="7"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p8">
+          <img src="img/shirt/shirt7.webp" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="8"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p9">
+          <img src="img/shirt/shirt8.avif" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="9"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p10">
+          <img src="img/shirt/shirt9.jpg" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="10"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="banner" class="section-m1">
+      <h4>Farmers Section</h4>
+      <h2>Sell Your Raw Material at best price</h2>
+      <br />
+      <button class="normal">Register Now</button>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Trending Products</h2>
+      <p>Summer Season Top Collection</p>
+      <div class="pro-container">
+        <div class="p">
+        <div class="pro" id="p11">
+          <img src="img/shirt/shirt1.webp" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="11"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p12">
+          <img src="img/pant/pant3.avif" alt="" />
+          <div class="des">
+            <h5>Pant</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="12"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p13">
+          <img src="img/sherwani/sherwani3.avif" alt="" />
+          <div class="des">
+            <h5>Sherwani</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="13"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p14">
+          <img src="img/kurta/kurta7.avif" alt="" />
+          <div class="des">
+            <h5>Kurta</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="14"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p15">
+          <img src="img/shoes/shoes4.webp" alt="" />
+          <div class="des">
+            <h5>Shoes</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="15"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p16">
+          <img src="img/shirt/shirt3.jpg" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="16"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p17">
+          <img src="img/shirt/shirt6.webp" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="17"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p18">
+          <img src="img/shirt/shirt7.webp" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="18"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+        <div class="p">
+        <div class="pro" id="p19">
+          <img src="img/shirt/shirt8.avif" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="19"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <div class="p">
+        <div class="pro" id="p20">
+          <img src="img/shirt/shirt9.jpg" alt="" />
+          <div class="des">
+            <h5>Shirt</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹500</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id="20"></i>
+          <button class=" butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+    </div>
+    </section>
+    <section id="sm-banner" class="section-p1">
+      <div class="banner-box">
+        <h4>INDUSTRIALISTS SECTION</h4>
+        <h2>BUY RAW MATERIALS</h2>
+        <span>BEST PRICE ON RAW MATERIALS</span>
+        <button class="normal"><a href="raw.html">Buy Now</a></button>
+      </div>
+      <div class="banner-box-another">
+        <h4>CUSTOMERS SECTION</h4>
+        <h2>BUY READYMADE PRODUCTS</h2>
+        <span>BUY PRODUCTS IN LOWEST PRICE</span>
+        <button class="normal"><a href="shop.html">Buy Now</a></button>
+      </div>
+    </section>
+    <section id="newsletter" class="section-p1" class="section-m1">
+      <div class="newstext">
+        <h4>Sign Up For Newsletters</h4>
+        <p>
+          Get E-mail updates about your latest shop and
+          <span>special offers.</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+    <section id="footer" class="section-m1">
+      <p>&copy 2023 DreamKart. All rights reserved</p>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

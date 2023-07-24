@@ -1,0 +1,1404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/08945172e3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="header">
+      <a href="#"><img src="" alt="" class="" /></a>
+
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a class="active" href="raw.html">Raw Products</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li>
+            <div class="searchBox">
+              <input type="text" class="search-text" placeholder="search products">
+            <a href="#" class="searchBtn"
+              ><i class="fa-solid fa-magnifying-glass"></i
+            ></a>
+          </div>
+          </li>
+          <li>
+            <i class="fa-solid fa-heart btnWishlist-popup"></i>
+          </li>
+          <li>
+            <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <li>
+            <i class="fa-solid fa-user btnLogin-popup"></i>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrapper">
+        <span class="icon-close">
+          <i class="bx bx-x"></i>
+        </span>
+        <div class="logreg-box">
+          <!-- login form -->
+          <div class="form-box login">
+            <div class="logreg-title">
+              <h2>Login</h2>
+              <p>Please login to use the platform</p>
+            </div>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-envelope"></i></span>
+                <input type="email" required />
+                <label>Email</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                <input type="password" required />
+                <label>Password</label>
+              </div>
+
+              <div class="remember-forgot">
+                <label><input type="checkbox" />Remember me</label>
+                <a href="#">Forgot Password?</a>
+              </div>
+
+              <button type="submit" class="btn">Login</button>
+
+              <div class="logreg-link">
+                <p>
+                  Don't Have an account?
+                  <a href="#" class="register-link">Register</a>
+                </p>
+              </div>
+            </form>
+          </div>
+
+          <!-- registratiin form -->
+          <div class="form-box register">
+            <div class="logreg-title">
+              <h2>Registration</h2>
+              <p>Please provide the following to verify your identity</p>
+            </div>
+            <form action="#">
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-user"></i></span>
+                <input type="text" required />
+                <label>Full Name</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-envelope"></i></span>
+                <input type="email" required />
+                <label>Email</label>
+              </div>
+
+              <div class="input-box">
+                <span class="icon"><i class="bx bxs-lock-alt"></i></span>
+                <input type="password" required />
+                <label>Password</label>
+              </div>
+
+              <div class="remember-forgot">
+                <label
+                  ><input type="checkbox" />I agree to the terms &
+                  conditions</label
+                >
+              </div>
+
+              <button type="submit" class="btn">Login</button>
+
+              <div class="logreg-link">
+                <p>
+                  Already have an account?
+                  <a href="#" class="login-link">Login</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="media-options">
+          <a href="#">
+            <i class="bx bxl-google"></i>
+            <span>Login With Google</span>
+          </a>
+          <a href="#">
+            <i class="bx bxl-facebook-circle"></i>
+            <span>Login With Facebook</span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="wishlist">
+      <div id="wrap" class="pro">
+        <h2>Wishlist</h2>
+        <span class="ico-close">
+          <i class="bx bx-x"></i>
+        </span>
+      </div>
+    </section>
+    <section id="product1" class="section-p1">
+      <h2>Raw Products</h2>
+      <br /><br />
+      <h3>ADD NEW PRODUCT</h3>
+      <div class="pro-container">
+        <div class="pro-another">
+          <a href="add.html"><i class="fa-solid fa-plus fa-2xl"></i></a>
+        </div>
+      </div>
+      <br /><br />
+      <h3>COTTON</h3>
+      <div class="pro-container">
+        <div class="pro" id="cot1">
+          <img src="img/cotton/poplin.jpg" alt="" />
+          <div class="des">
+            <h5>Poplin Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro" class="cot2">
+          <img src="img/cotton/muslin.jpg" alt="" />
+          <div class="des">
+            <h5>Muslin Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/gingham.webp" alt="" />
+          <div class="des">
+            <h5>Gingham Cottom</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/lawn.jpg" alt="" />
+          <div class="des">
+            <h5>Lawn Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/sateen.jpg" alt="" />
+          <div class="des">
+            <h5>Sateen Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/madras.jpg" alt="" />
+          <div class="des">
+            <h5>Madras Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/voile.jpg" alt="" />
+          <div class="des">
+            <h5>Voile Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/egyptian.jpg" alt="" />
+          <div class="des">
+            <h5>Egyptian Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/cambric.jpg" alt="" />
+          <div class="des">
+            <h5>Cambric Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/chintz.jpg" alt="" />
+          <div class="des">
+            <h5>Chintz Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/organdy.jpg" alt="" />
+          <div class="des">
+            <h5>Organdy Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/chenille.jpg" alt="" />
+          <div class="des">
+            <h5>Chenille Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/bengaline.jpg" alt="" />
+          <div class="des">
+            <h5>Bengaline Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/chino.webp" alt="" />
+          <div class="des">
+            <h5>Chino Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/broadcloth.webp" alt="" />
+          <div class="des">
+            <h5>Broadcloth Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/drill.jpg" alt="" />
+          <div class="des">
+            <h5>Drill Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/garbardine.webp" alt="" />
+          <div class="des">
+            <h5>Garbardine Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/challis.webp" alt="" />
+          <div class="des">
+            <h5>Challis Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/moire.webp" alt="" />
+          <div class="des">
+            <h5>Moire Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/cotton/dobby.webp" alt="" />
+          <div class="des">
+            <h5>Dobby Cotton</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <br /><br />
+      <h3>CELLULOSE FIBRE</h3>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/fibres/abaca.jpg" alt="" />
+          <div class="des">
+            <h5>Abaca Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/bamboo.jpg" alt="" />
+          <div class="des">
+            <h5>Bamboo Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/coir.jpg" alt="" />
+          <div class="des">
+            <h5>Coir Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/cotton.jpg" alt="" />
+          <div class="des">
+            <h5>Cotton Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/fibrecop.jpg" alt="" />
+          <div class="des">
+            <h5>Fibre Cop</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/flax.webp" alt="" />
+          <div class="des">
+            <h5>Flax Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/jute.jpg" alt="" />
+          <div class="des">
+            <h5>Jute Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/kapok.jpg" alt="" />
+          <div class="des">
+            <h5>Kapok Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/kenaf.jpg" alt="" />
+          <div class="des">
+            <h5>Kenaf Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/lyocell.jpg" alt="" />
+          <div class="des">
+            <h5>Lyocell Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/modal.webp" alt="" />
+          <div class="des">
+            <h5>Modal Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/pina.webp" alt="" />
+          <div class="des">
+            <h5>Pina Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/ramie.jpg" alt="" />
+          <div class="des">
+            <h5>Ramie Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/rayon.jpg" alt="" />
+          <div class="des">
+            <h5>Rayon Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/fibres/sisal.jpg" alt="" />
+          <div class="des">
+            <h5>Sisal Fibres</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <br /><br />
+      <h3>SILK</h3>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/silk/art.jpg" alt="" />
+          <div class="des">
+            <h5>Art Silk</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/silk/eri.jpg" alt="" />
+          <div class="des">
+            <h5>Eri Silk</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/silk/muga.png" alt="" />
+          <div class="des">
+            <h5>Muga Silk</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/silk/mulberry.jpg" alt="" />
+          <div class="des">
+            <h5>Mulberry Silk</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/silk/sea.jpg" alt="" />
+          <div class="des">
+            <h5>Sea Silk</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/silk/spider.webp" alt="" />
+          <div class="des">
+            <h5>Spider Silk</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <br /><br />
+      <h3>THREADS</h3>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/threads/glazed.jpg" alt="" />
+          <div class="des">
+            <h5>Glazed Threads</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/threads/matallic.jpg" alt="" />
+          <div class="des">
+            <h5>Metallic Threads</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/threads/monofilament.jpg" alt="" />
+          <div class="des">
+            <h5>Mono Filament Threads</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/threads/nylon.jpg" alt="" />
+          <div class="des">
+            <h5>Nylon Threads</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/threads/polyester.jpg" alt="" />
+          <div class="des">
+            <h5>Polyester Threads</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <br /><br />
+      <h3>WOOL</h3>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/wool/angora.jpg" alt="" />
+          <div class="des">
+            <h5>Angora Wool</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/wool/boiled.jpg" alt="" />
+          <div class="des">
+            <h5>Boiled Wool</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/wool/cashmere.jpg" alt="" />
+          <div class="des">
+            <h5>Cashmere Wool</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/wool/mohair.jpg" alt="" />
+          <div class="des">
+            <h5>Mohair Wool</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/wool/worsted.jpg" alt="" />
+          <div class="des">
+            <h5>Worsted Wool</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <br /><br />
+      <h3>ELASTIC</h3>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/elastic/baby.jpg" alt="" />
+          <div class="des">
+            <h5>Baby Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/braided.jpg" alt="" />
+          <div class="des">
+            <h5>Braided Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/buttonhole.jpg" alt="" />
+          <div class="des">
+            <h5>Button Hole Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/clear.jpg" alt="" />
+          <div class="des">
+            <h5>Clear Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/corded.webp" alt="" />
+          <div class="des">
+            <h5>Corded Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/drawsting.jpg" alt="" />
+          <div class="des">
+            <h5>Drawsting Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/fold over.jpg" alt="" />
+          <div class="des">
+            <h5>Fold Over Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/hat.jpg" alt="" />
+          <div class="des">
+            <h5>Hat Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/knitted.jpg" alt="" />
+          <div class="des">
+            <h5>Knitted Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/lace.jpg" alt="" />
+          <div class="des">
+            <h5>Lace Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/lingerie.avif" alt="" />
+          <div class="des">
+            <h5>Lingerie Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/ruched.jpg" alt="" />
+          <div class="des">
+            <h5>Ruched Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/swimwear.jpg" alt="" />
+          <div class="des">
+            <h5>Swimwear Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/thread.jpg" alt="" />
+          <div class="des">
+            <h5>Thread Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/elastic/woven.jpg" alt="" />
+          <div class="des">
+            <h5>Woven Elastic</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+      <br /><br />
+      <h3>DYES</h3>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/dyes/aciddyes.jpg" alt="" />
+          <div class="des">
+            <h5>Acid Dyes</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/dyes/azoic.webp" alt="" />
+          <div class="des">
+            <h5>Azoic Dye</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/dyes/direct.jpg" alt="" />
+          <div class="des">
+            <h5>Direct Dye</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/dyes/fiberreactive.jpg" alt="" />
+          <div class="des">
+            <h5>Fiber Reactive Dye</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+        <div class="pro">
+          <img src="img/dyes/mordant.jpg" alt="" />
+          <div class="des">
+            <h5>Mordant Dye</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>₹50</h4>
+          </div>
+          <i class="fa-solid fa-heart left but" id=""></i>
+          <button class="butt">Buy Now</button>
+          <a href="#"><i class="fa-solid fa-cart-plus right"></i></a>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
