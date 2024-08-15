@@ -897,7 +897,7 @@ h2{
   width: 5px;
 
 }
-#wrap::-webkit-scrollbar-thumb {
+#wrap::-webkit-scrollbar-jh {
   background: black;
 }
 #wrap h2{

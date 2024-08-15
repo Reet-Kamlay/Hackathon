@@ -70,5 +70,6 @@ btPopup.onclick = () => {
 
 icoClose.onclick = () => {
     wrap.classList.remove('activ-popup');
+    
     wrap.classList.remove('activ');
 };
